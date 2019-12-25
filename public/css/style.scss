@@ -2,26 +2,32 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-}
-
-p {
-    font-size: 2vw;
-  }
-  
-  h1 {
-    font-size: 6vw;
-  }
-  
-  h4 {
-    font-size: 3vw;
-  }
-  
+}  
 
 #grow {
     flex-grow: 1;
 }
 
+h1 {
+    font-size: 2rem;
+}
+
+h4{
+    font-size: 1.3rem;
+}
+
+
+p {
+    font-size: .8rem;
+}
+
 .nav li a {
     color: #888888;
     padding: 3px;
+}
+
+@media only screen and (max-width: 750px) {
+    html {
+        font-size: 12px;
+    }
 }
