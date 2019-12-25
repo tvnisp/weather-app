@@ -1,14 +1,20 @@
 {{> header}}
 
-    <h4 class="pt-5">Search here and get the weather temperature</h4>
+    <div class="row pt-5">
+        <div class="col-lg-6 col-sm-12 mb-5 d-flex justify-content-center pt-3 order-2">
+            <form class="search-form">
+                <input class="location" type="text" placeholder="Location" required autofocus>
+                <input class="searchBtn btn btn-dark" type="submit" value="Search">
+            </form>
+        </div>
+        <div class="col-lg-6 col-sm-12 order-1">
+            <h4>Search here and get the weather temperature</h4>
+            <p class="forecast"></p>
+        </div>
+    </div>
+    
 
-    <p class="forecast"></p>
-
-    <form class="search-form">
-        <input class="location" type="text" placeholder="Location" required autofocus>
-        <input class="searchBtn btn btn-dark" type="submit" value="Search">
-    </form>
-
+    
     
 
 <script src="/js/app.js"></script>
