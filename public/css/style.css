@@ -1,51 +1,14 @@
-h1 {
-    color: #646262;
-    font-size: 60px;
-}
-
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    width: 1000px;
-    margin: 0 auto;
-    color: #333333;
 }
 
-.main-content {
+#grow {
     flex-grow: 1;
 }
 
-.nav {
-    display: flex;
-    width: 200px;
-    justify-content: space-between;
-    list-style: none;
-    margin-left: 2px;
-    padding: 0;
-}
-
-.nav a {
-    text-decoration: none;
+.nav li a {
     color: #888888;
-}
-
-.search-form {
-    padding-top: 50px;
-}
-
-.location {
-    padding: 10px;
-}
-
-.searchBtn {
-    padding: 15px;
-    color: white;
-    background: #646262;
-    border-radius: 5px;
-}
-
-footer {
-    border-top: 1px solid #888888;
-    padding: 15px 0;
+    padding: 5px;
 }
