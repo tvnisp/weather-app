@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+p {
+    font-size: 2vw;
+  }
+  
+  h1 {
+    font-size: 6vw;
+  }
+  
+  h4 {
+    font-size: 3vw;
+  }
+  
+
+#grow {
+    flex-grow: 1;
+}
+
+.nav li a {
+    color: #888888;
+    padding: 3px;
+}
