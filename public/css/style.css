@@ -1,6 +1,6 @@
 h1 {
-    color: #888888;
-    font-size: 45px;
+    color: #646262;
+    font-size: 60px;
 }
 
 body {
@@ -27,11 +27,22 @@ body {
 
 .nav a {
     text-decoration: none;
-    color: #333333;
+    color: #888888;
 }
 
 .search-form {
     padding-top: 50px;
+}
+
+.location {
+    padding: 10px;
+}
+
+.searchBtn {
+    padding: 15px;
+    color: white;
+    background: #646262;
+    border-radius: 5px;
 }
 
 footer {

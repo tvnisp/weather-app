@@ -2,13 +2,11 @@ const searchBtn = document.querySelector('.searchBtn')
 const forecast = document.querySelector('.forecast')
 const inputPath = document.querySelector('.location')
 
-
-
-
-
 searchBtn.addEventListener('click', (event) => {
     event.preventDefault()
     const input = inputPath.value
+
+    forecast.textContent = `Loading...`
     
     fetch(`/weather?address=${input}`).then((res) => {
         res.json().then((data) => {
